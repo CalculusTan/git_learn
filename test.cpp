@@ -1,7 +1,6 @@
-#include <iostream>
-using namespace std;
-int main()
+#include "test.h"
+
+int Max(int a, int b)
 {
-	cout << "HelloWorld" << endl;
-	return 0;
+	return a > b ? a : b;
 }
